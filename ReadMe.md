@@ -2,7 +2,7 @@
 
 
 
-# Connect Storage Account to Vnet
+## Connect Storage Account to Vnet
 
 Go to your **storage account**, navigate to "**Firewalls and Virtual Networks**". Select "allow acces from **selected networks**".  Create a **Virtual network**. 
 
@@ -44,7 +44,7 @@ Tick the box on the **Microsoft.Storage** and press save.
 
 
 
-# Done
+## Done
 
 Now it might take a while for azure to configure all your settings and networking.
 
