@@ -12,8 +12,6 @@ You only have to enter a name and leave the rest default.
 
 **Save** your **settings** to your storage account.
 
-We need to enable the **storage endpoint** on the VNet.
-
 You'll see that **"endpoint status"** is disabled.
 
 
@@ -34,13 +32,16 @@ So let's connect the **website**. Go to the **Networking** part of the website a
 
 ## Configure the Vnet
 
+We need to enable the **storage endpoint** on the VNet.
+
 Go back to the **storageaccount** in the portal, go to Firewall and virtual networks.
 
 Click it and, open the "Default" **subnet** where it says **"Endpoint disabled"**.
 
+Go to the "**service endpoints section**"
 Tick the box on the **Microsoft.Storage** and press save.
 
-![enable service enpoint](C:/Users/patricke/Documents/Visual%20Studio%202017/Projects/passwordless-lab2/images/enable-service-endpoint.PNG)
+![enable service enpoint](images/enable-service-endpoint.PNG)
 
 
 
