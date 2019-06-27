@@ -28,13 +28,13 @@ So let's connect the **website**. Go to the **Networking** part of the website a
 
 **Connect** to the Vnet.
 
-![Connect website](images/vnet integration.PNG)
+![Vnet integration](images/vnet-integration.PNG)
 
 ## Configure the Vnet
 
 We need to enable the **storage endpoint** on the VNet.
 
-Go back to the **storageaccount** in the portal, go to Firewall and virtual networks.
+Go back to the **storageaccount** in the portal, go to **Firewall and virtual networks**.
 
 Click it and, open the "Default" **subnet** where it says **"Endpoint disabled"**.
 
@@ -49,4 +49,4 @@ Tick the box on the **Microsoft.Storage** and press save.
 
 Now it might take a while for azure to configure all your settings and networking.
 
-You can try restarting your website and check if it works again in isolated mode.
+You can try **restarting** your website and check if it works again in isolated mode by visiting it.
